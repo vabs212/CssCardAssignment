@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        div{
+            box-sizing: border-box;
+            margin: 20px;
+            border: 1px solid;
+            /* border-radius:20px; */
+            height:100%;
+            width:20%;
+        }
+        #price{
+           border: hidden;
+        }
+        img{
+            margin:10px;
+            width:90%;
+            height:40%;
+            border-radius: 10px;
+        }
+        p{
+            margin:10px;
+            font-size:medium;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h4{
+            padding:10px;
+            font-size: small;
+        }
+        #off{
+            background-color:lightgreen;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <img src="card.jpg" alt="cardImage">
+        <p>Web Development Master<br>Course@dot Batch</p>
+        <hr>
+        <div id="price">
+            <h4>4500&nbsp;&nbsp;<del>6000&nbsp;</del>&nbsp;&nbsp;<b id="off">42%off</b></h4>
+        </div>
+    </div>
+</body>
+</html>
